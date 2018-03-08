@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragmentBackground"
+    tools:context="com.ironkaran.ironkaran.activities.PlaceOrderActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numLayout"
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/numClothesIcon"
+                android:src="@mipmap/no_of_cloths_ic"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/numClothesIcon"
+                android:paddingLeft="16dp"
+                android:paddingTop="8dp"
+                android:layout_marginTop="16dp"
+                android:text="Number of clothes"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:hint="0"
+                android:id="@+id/numberOfClothes"
+                android:inputType="number"
+
+                />
+
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Pickup Details"
+            android:textColor="@color/colorPrimary"
+
+            android:layout_below="@id/numLayout"
+            android:id="@+id/pickTextLayout"
+            android:textSize="16sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/pickTextLayout"
+            android:id="@+id/detailsLayout"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="Apartment name"
+                android:id="@+id/apartmentNameLabelTwo"
+                android:layout_marginTop="8dp"
+
+                android:layout_marginRight="16dp"
+                />
+
+            <com.wrapp.floatlabelededittext.FloatLabeledEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/apartmentSpinnerLabel"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                >
+
+                <Spinner
+                    android:id="@+id/apartmentSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:background="@drawable/spinner_border"
+                    />
+            </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+            <com.wrapp.floatlabelededittext.FloatLabeledEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/apartmentNumber"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:hint="Apartment number"
+                    android:id="@+id/apartmentNumberEditText"/>
+
+            </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+            <com.wrapp.floatlabelededittext.FloatLabeledEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/apartmentBlock"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:hint="Apartment block"
+                    android:id="@+id/apartmentBlockEditText"/>
+
+
+
+            </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detailsLayout"
+            android:id="@+id/buttonsLayout">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="16dp"
+                android:text="Pickup Now"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:background="@drawable/spinner_border"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                style="@style/AppTheme.RoundedCornerMaterialButton"
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Pickup Later"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="32dp"
+                android:id="@+id/pickupLater"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:textSize="12sp"
+                android:textColor="@color/disabledBlack"
+                android:background="@drawable/spinner_border_gray"
+
+                />
+
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/buttonsLayout"
+            android:text=""
+            android:id="@+id/displaySummaryText"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Confirm Pickup"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:id="@+id/confirmPickupNew"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:layout_alignParentBottom="true"
+            />
+
+</RelativeLayout>

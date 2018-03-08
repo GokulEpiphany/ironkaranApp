@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@mipmap/ic_history"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_prices"
+            android:icon="@mipmap/ic_cash"
+            android:title="Our Prices" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@mipmap/ic_feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@mipmap/ic_faq"
+                android:title="About Us" />
+
+
+        </menu>
+    </item>
+
+</menu>

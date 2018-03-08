@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragmentBackground"
+    tools:ignore="MissingPrefix"
+    tools:context="com.ironkaran.ironkaran.activities.ScheduleActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/scheduleWhenText"
+        android:gravity="center"
+        android:text="When should we pick your clothes?"
+        android:textSize="18sp"
+        android:textColor="@color/eightySevenBlack"
+        android:layout_margin="16dp"
+        fontPath="fonts/Montserrat-Medium.ttf"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Pickup now"
+        android:id="@+id/nowButton"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_below="@id/scheduleWhenText"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orText"
+        android:gravity="center"
+        android:text="OR"
+        android:textSize="15sp"
+        android:textColor="@color/disabledBlack"
+        android:layout_margin="16dp"
+        android:layout_below="@id/nowButton"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Pickup later"
+        android:id="@+id/laterButton"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_below="@id/orText"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:src="@drawable/ic_shower_clothes_4901"
+        android:layout_below="@id/laterButton"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

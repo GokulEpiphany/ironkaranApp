@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix"
+    android:background="@color/fragmentBackground"
+    tools:context="com.ironkaran.ironkaran.activities.OTPActivity">
+    <com.goodiebag.pinview.Pinview
+        android:id="@+id/otpData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:pinWidth="40dp"
+        app:pinHeight="40dp"
+        app:pinLength="4"
+        app:cursorVisible="false"
+        app:forceKeyboard="true"
+        app:hint="0"
+        app:inputType="number"
+        app:password="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please confirm the OTP"
+        android:gravity="center"
+        android:id="@+id/startingText"
+        android:layout_above="@id/otpData"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/eightySevenBlack"
+        fontPath="fonts/Montserrat-Medium.ttf"
+
+        />
+
+
+</RelativeLayout>

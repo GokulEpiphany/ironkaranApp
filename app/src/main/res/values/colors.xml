@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="topNotificationBar">#079567</color>
+    <color name="topHeaderBg">#3B5998</color>
+    <color name="topHeaderTextColor">#FFF</color>
+    <color name="pageNameViewColor">#1D1D1D</color>
+    <color name="bgLeft">#262626</color>
+    <color name="bgRight">#242424</color>
+    <color name="labelColorPink">#FE5F71</color>
+
+    <color name="backgroundColorGetStartedButton">#55000000</color>
+    <color name="yellow">#FFF1B40E</color>
+    <color name="yellow_with_opacity">#55F1B40E</color>
+    <color name="graph_yellow">#FF6E5D2E</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+
+    <color name="colorAccent">#3F51B5</color>
+
+
+    <color name="black">#000</color>
+    <color name="orange">#FFAA00</color>
+    <color name="white">#FFF</color>
+    <color name="fragmentBackground">#EAEAEA</color>
+    <color name="tabsBackground">#0AB47D</color>
+    <color name="labelColorForDTC">#FE5F71</color>
+    <color name="labelDarkGrey">#6A6E76</color>
+    <color name="trip_history_background_textview">#313236</color>
+    <color name="trip_history_textcolor">#FFB1B8C5</color>
+    <color name="progress_bar_color_two">#AA65D7</color>
+    <color name="darkpink">#F53046</color>
+
+    <color name="primaryBlack">#DE000000</color>
+    <color name="secondaryBlack">#8A000000</color>
+    <color name="darkerThanSecondary">#AA000000</color>
+
+    <color name="disabledBlack">#61000000</color>
+    <color name="veryLightBlack">#20000000</color>
+    <color name="dividerLine">#E0E0E0</color>
+    <color name="sevenZeroBlack">#707070</color>
+
+    <color name="lightShadeofGrey">#D5D5D5</color>
+
+    <color name="driverPageGreen">#0AB470</color>
+
+    <color name="backArrow">#3A3A48</color>
+
+    <color name="eightySevenBlack">#212121</color>
+    <color name="branchGreen">#079567</color>
+
+
+    <color name="lightGrey">#D5D5D5</color>
+    <color name="darkGrey">#A5a5a5</color>
+
+
+</resources>

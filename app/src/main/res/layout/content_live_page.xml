@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ironkaran.ironkaran.LivePageActivity"
+    tools:ignore="MissingPrefix"
+    tools:showIn="@layout/app_bar_live_page">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fragmentBackground"
+        android:id="@+id/cardViewForDriverBehaviour"
+        android:layout_margin="16dp"
+        android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order status"
+                android:layout_margin="10dp"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/orderStatusText"
+                android:textSize="15sp"
+                android:textColor="@color/eightySevenBlack"
+                fontPath="fonts/Montserrat-Medium.ttf"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No live orders yet"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:id="@+id/currentStatusText"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"
+                fontPath="fonts/Montserrat-Medium.ttf"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Pick up timings"
+                android:layout_margin="10dp"
+                android:id="@+id/secondLabel"
+                android:textSize="15sp"
+                android:textColor="@color/eightySevenBlack"
+                fontPath="fonts/Montserrat-Medium.ttf"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="9AM to 9PM"
+                android:layout_margin="10dp"
+                android:id="@+id/secondText"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"
+                fontPath="fonts/Montserrat-Medium.ttf"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Holidays"
+                android:layout_margin="10dp"
+                android:id="@+id/thirdLabel"
+                android:layout_alignParentLeft="true"
+                android:textSize="15sp"
+                android:textColor="@color/eightySevenBlack"
+                fontPath="fonts/Montserrat-Medium.ttf"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuesday"
+                android:layout_margin="10dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/thirdText"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"
+                fontPath="fonts/Montserrat-Medium.ttf"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Our Rates"
+                android:layout_margin="10dp"
+                android:id="@+id/fourthLabel"
+                android:layout_alignParentLeft="true"
+                android:textSize="15sp"
+                android:textColor="@color/eightySevenBlack"
+                fontPath="fonts/Montserrat-Medium.ttf"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View here"
+                android:layout_margin="10dp"
+                android:id="@+id/fourthText"
+                android:layout_alignParentRight="true"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"
+                fontPath="fonts/Montserrat-Medium.ttf"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/eightySevenBlack"
+        android:layout_marginLeft="24dp"
+        android:text="Pricing"
+     />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fragmentBackground"
+        android:id="@+id/cardViewForPricing"
+        android:layout_margin="16dp"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regular (R)"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/typeOne"
+                    android:textSize="15sp"
+                    android:textColor="@color/disabledBlack"
+                    fontPath="fonts/Montserrat-Medium.ttf"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8Rs"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="10dp"
+                    android:id="@+id/typeOneRs"
+                    android:textSize="15sp"
+                    android:textColor="@color/eightySevenBlack"
+                    fontPath="fonts/Montserrat-Medium.ttf"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Care (C)"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/typeTwo"
+                    android:textSize="15sp"
+                    android:textColor="@color/disabledBlack"
+                    fontPath="fonts/Montserrat-Medium.ttf"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15Rs"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="10dp"
+                    android:id="@+id/typeTwoRs"
+                    android:textSize="15sp"
+                    android:textColor="@color/eightySevenBlack"
+                    fontPath="fonts/Montserrat-Medium.ttf"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Special (S)"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/typeThree"
+                    android:textSize="15sp"
+                    android:textColor="@color/disabledBlack"
+                    fontPath="fonts/Montserrat-Medium.ttf"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30Rs"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="10dp"
+                    android:id="@+id/typeThreeRs"
+                    android:textSize="15sp"
+                    android:textColor="@color/eightySevenBlack"
+                    fontPath="fonts/Montserrat-Medium.ttf"
+                    />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp"
+            android:text="Call us at 9884976195 for any queries"
+            android:textColor="@color/disabledBlack"
+            android:paddingRight="16dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

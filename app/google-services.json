@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "205198526642",
+    "firebase_url": "https://ironkarantest.firebaseio.com",
+    "project_id": "ironkarantest",
+    "storage_bucket": "ironkarantest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205198526642:android:48ee8bf851ea67be",
+        "android_client_info": {
+          "package_name": "com.ironkaran.ironkaran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205198526642-nns1454561n80is853r372lti9temat1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA41JyiKdLyjAzovqe3MAmhDowFC8_nHZg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
